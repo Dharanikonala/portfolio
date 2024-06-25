@@ -1,0 +1,2496 @@
+/* styles.css */
+*{
+padding:0px;
+margin: 0px;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    top: 0;
+    width: 100%;
+    padding-top:1rem;
+    padding-left: 0.9rem;
+    height:50px;
+    
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap:1rem;
+}
+
+nav ul li {
+    margin: 0;
+    
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    height: 100vh;
+    width:100vw;
+    border: 1px solid #ccc;
+}
+#section1{
+    background-color: #F8F4E1;
+}
+.page1{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+.left{
+    height:70vh;
+    min-width: 50%;
+    text-align: center;
+    
+}
+.right{
+    height:90vh;
+    min-width: 50%;
+}
+.l1{
+    font-size:5rem;
+    color: black;
+    min-height: 10vh;
+    padding-top: 10rem;
+    
+}
+
+.r1{
+    height: 600px;
+    width:300px;
+    margin-top: 2rem;
+    background-image: url(img/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#homeText {
+    font-size: 3rem;
+    font-weight: bold;
+    display: inline-block;
+    transition: opacity 0.5s ease-in-out;
+    color:#AF8F6F;
+}
+#section2{
+    background-color: #AF8F6F;
+}
+.s2Heading{
+    font-size:2.5rem;
+    color: black;
+    height:20px;
+    width: 100vw;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    font-weight: bolder;
+    padding-bottom: 5rem;
+}
+.page2{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+.l2{
+    height:90vh;
+    min-width: 35%;
+    background-image: url('img/img2.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+
+
+    
+}
+.r2{
+    height:50vh;
+    min-width: 60%;
+    background-image: url('img/img3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10rem;
+    position: absolute;
+    right:11rem;
+
+}
+.aboutText{
+    height:100px;
+    width:500px;
+    position: absolute;
+    right:16rem;
+    top:15rem;
+    font-size:1.8rem;
+}
+/*-------------------sec2-----------------------------------------*/
+#section3{
+    background-color: #F8F4E1;
+}
+.page3{
+    background-color: #F8F4E1;
+    display: flex;
+    flex-direction: row;
+    gap:5rem;
+    justify-content: space-around;
+
+}
+
+.s3Heading{
+    font-size:2.5rem;
+    color: black;
+    height:20px;
+    width: 100vw;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    font-weight: bolder;
+    padding-bottom: 5rem;
+}
+.pro{
+    height: 400px;
+    width:300px;
+    background-color: #AF8F6F;
+    border-radius: 10px;
+    box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+
+    
+}
+.proImg1{
+    height: 100%;
+    width:100%;
+    background-image: url('img/pro1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.proImg2{
+    height: 100%;
+    width:100%;
+    background-image: url('img/pro2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*-----------------------SEC3-----------------------------------------*/
+#section4{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    background-color: #AF8F6F;
+}
+.section4Heading{
+    font-size:2.5rem;
+    color: black;
+    height:20px;
+    width: 200px;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    font-weight: bolder;
+    padding-bottom: 4rem;
+    background-color: #AF8F6F;
+}
+.secPart1{
+    height:60%;
+    width: 100vw;
+    background-color:#AF8F6F;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around
+
+    
+}
+
+.container{
+    height: 100px;
+    width:100px;
+    background-color: #F8F4E1;
+    box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    flex-wrap: wrap;
+   
+
+
+}
+.container:hover{
+    background-color: #543310;
+    color:#F8F4E1;
+}
+
+.im4{
+    background-image: url('img/react.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
+}
+.secPart2{
+    height:40%;
+    width: 100vw;
+    background-color: #543310;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.services{
+    color: #F8F4E1;
+    font-weight: bolder;
+    font-size: 2rem;
+    
+}
+.services li{
+    font-size: 1rem;
+    list-style-type: none;
+    
+}
+.links{
+    
+    color:#F8F4E1;
+    font-size:2rem;
+    font-weight: bolder;
+}
+.innerlink{
+    display: flex;
+    flex-direction: row;
+    gap:4rem;
+
+}
+.button{
+    height: 50px;
+    width:50px;
+    background-color: #F8F4E1;
+    box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+    border-radius: 50%;
+    display: flex;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    border: none;
+
+}
+.innerlink p{
+    font-size: 0.8rem;
+}
+a .fa-github{
+    position: absolute;
+    bottom:24px;
+    left:1px;
+}
+a .fa-linkedin-in{
+    position: absolute;
+    bottom:25px;
+    left:10px;
+}
+a .fa-envelope{
+    position: absolute;
+    bottom:10px;
+    left:8px;
+
+}
+
+
+/*-------------------------------SEC4--------------------------------------------*/
+
+/* smaller screens */
+@media(max-width:1000px){
+nav ul li a{
+    font-size:12px;
+    padding: 0px;
+}
+section {
+    height: 90vh;
+    width:100vw;
+    border: 1px solid #ccc;
+    
+}
+.page1{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    min-height:90%;
+    min-width: 100vw;
+
+}
+.left{
+    min-height: 10%;
+    min-width: 100vw; 
+
+}
+.l1{
+    font-size:1.4rem;
+    color: black;
+    min-height: 10vh;
+    padding-top: 4rem;
+    font-weight: bolder;
+    
+}
+.r1{
+    height: 20px;
+    width:100px;
+    background-image: url(img/hero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#homeText{
+    font-size: 1.8rem;
+}
+.page2{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+.l2{
+    height:55vh;
+    width:280px;
+    background-image: url('img/img2\(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+    
+}
+.r2{
+    height:200px;
+    width: 200px;
+    background-image: url('img/img3\(5\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 10rem;
+    position: absolute;
+    right:-1rem;
+    top:66rem;
+
+}
+.aboutText{
+    height:100px;
+    width:100px;
+    position: absolute;
+    right:5.5rem;
+    top:1rem;
+    font-size:0.9rem;
+}
+.s3Heading{
+    font-size:1.5rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    font-weight: bolder;
+    padding-bottom: 3rem;
+}
+.section4Heading{
+    font-size:1.5rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    font-weight: bolder;
+    padding-bottom: 3rem;
+}
+}
+/*galaxy fold*/
+@media((width:280px) and (height:653px)){
+    nav ul li a{
+        font-size:12px;
+    }
+    section{
+        height: 70vh;
+        width:100vw;
+        padding: 0px;
+       
+    }
+    .page1{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        min-height: 70%;
+        min-width: 100vw;
+    }
+    .left{
+        min-height: 30%;
+        min-width: 100vw; 
+    }
+    .l1{
+        font-size:1.2rem;
+        color: black;
+        min-height: 10vh;
+        padding-top: 5rem;
+        font-weight: bolder;
+        
+    }
+    .r1{
+        height: 300px;
+        width:100px;
+        margin-top: 2rem;
+        background-image: url(img/hero.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #homeText{
+        font-size: 1.4rem;
+    }
+    nav{
+        position: relative;
+    }
+    .s2Heading{
+        font-size:1.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 1rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+        
+    }
+    .page2{
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .l2{
+        height:90vh;
+        min-width: 35%;
+        background-image: url('img/img2\(2\).png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top:-100px;       
+    
+    
+        
+    }
+    .aboutText{
+        height:100px;
+        width:100px;
+        position: absolute;
+        right:4.3rem;
+        top:1.4rem;
+        font-size:0.8rem;
+        
+    }
+    .r2{
+        height:50vh;
+        min-width: 65%;
+        background-image: url('img/img3\(5\).png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        top:200px;
+    }
+    
+
+    /*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:1rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .container{
+        height:50px;
+        width:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.6rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+    .services li{
+        font-size: 0.7rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 35px;
+        width:35px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:5px;
+        left:5px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 200px;
+        width:100px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }
+}
+/*surface pro*/
+@media(min-height:1366px){
+    section{
+        height: 90vh;
+    
+    }
+    nav ul li a{
+        font-size:20px;
+    }
+    nav{
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    nav ul{
+        gap:3rem;
+    }
+    .page1{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        min-height:90%;
+        min-width: 100vw;
+    
+    }
+    .left{
+        min-height: 10%;
+        min-width: 100vw; 
+    
+    }
+    .l1{
+        font-size:1.9rem;
+        color: black;
+        min-height: 10vh;
+        padding-top: 4rem;
+        font-weight: bolder;
+        
+    }
+    .r1{
+        height: 20px;
+        width:100px;
+        background-image: url(img/hero.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+    }
+    #homeText{
+        font-size: 2.1rem;
+    }
+}
+/*-------------------------PAGE2 ADJUSTMENTS---------------------------------------------------------------*/
+@media((width:375px) and (height:667px)){
+    .s2Heading{
+        font-size:1.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+    }
+    .page2{
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+    .l2{
+        height:90vh;
+        min-width: 35%;
+        background-image: url('img/img2\(2\).png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+    
+    
+        
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3\(5\).png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        right:-1.8rem;
+        top:6.5rem;
+    
+    }
+    .aboutText{
+        height:100px;
+        width:100px;
+        position: absolute;
+        right:4.3rem;
+        top:1.4rem;
+        font-size:0.8rem;
+    }
+/*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:0.5rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .container{
+        height: 70px;
+        width:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .services li{
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 35px;
+        width:35px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:6px;
+        left:6px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 400px;
+        width:150px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }   
+}
+@media((width:414px) and (height:896px)){
+    .r2{
+        top:6.3rem;
+    }
+    /*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:1rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .container{
+        height: 70px;
+        width:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .services li{
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 35px;
+        width:35px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:6px;
+        left:6px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 400px;
+        width:150px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }   
+
+}
+@media((width:390px) and (height:844px)){
+    .s2Heading{
+       font-size:1.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+    }
+    .l2{
+        height:90vh;
+        min-width: 35%;
+        background-image: url('img/img2\(2\).png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;    
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3\(5\).png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        right:-0.4rem;
+        top:3rem;
+    
+    }
+    .aboutText{
+        height:100px;
+        width:100px;
+        position: absolute;
+        right:4.3rem;
+        top:1.8rem;
+        font-size:0.9rem;
+    }
+    /*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:1rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .container{
+        height: 70px;
+        width:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .services li{
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 35px;
+        width:35px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:6px;
+        left:6px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 400px;
+        width:150px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }   
+    }
+@media((width:430px) and (height:932px)){
+        .s2Heading{
+           font-size:1.5rem;
+            color: black;
+            height:20px;
+            width: 100vw;
+            padding-left: 3rem;
+            padding-top: 3rem;
+            font-weight: bolder;
+            padding-bottom: 1rem;
+        }
+        .l2{
+            height:90vh;
+            min-width: 35%;
+            background-image: url('img/img2\(2\).png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;    
+        }
+        .r2{
+            height:50vh;
+            min-width: 60%;
+            background-image: url('img/img3\(5\).png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding-top: 1rem;
+            position: absolute;
+            right:0.3rem;
+            top:1rem;
+        
+        }
+        .aboutText{
+            height:100px;
+            width:100px;
+            position: absolute;
+            right:4.3rem;
+            top:1.8rem;
+            font-size:1rem;
+        }
+        /*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:2.5rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .container{
+        height: 70px;
+        width:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .services li{
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 35px;
+        width:35px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:6px;
+        left:6px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 400px;
+        width:150px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }   
+        
+        }
+@media((width:412px) and (height:915px)){
+    .s2Heading{
+        font-size:1.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+    }
+    .l2{
+        height:90vh;
+        min-width: 35%;
+        background-image: url('img/img2\(2\).png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;    
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3\(5\).png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        right:-0.1rem;
+        top:1.5rem;
+            
+    }
+    .aboutText{
+        height:100px;
+        width:100px;
+        position: absolute;
+        right:4.3rem;
+        top:1.8rem;
+        font-size:1rem;
+    }
+    /*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:2rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .container{
+        height: 70px;
+        width:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .services li{
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 35px;
+        width:35px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:6px;
+        left:6px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 400px;
+        width:150px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }   
+}
+@media((width:360px) and (height:740px)){
+    .s2Heading{
+        font-size:1.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+    }
+    .l2{
+        height:90vh;
+        min-width: 35%;
+        background-image: url('img/img2\(2\).png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;    
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3\(5\).png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        right:-0.1rem;
+        top:4.5rem;
+            
+    }
+    .aboutText{
+        height:100px;
+        width:100px;
+        position: absolute;
+        right:3.8rem;
+        top:1.8rem;
+        font-size:0.9rem;
+    }
+        /*----------------------section4(Part-2)Adjustments---------------*/
+        .secPart1{
+            height:60%;
+            width: 100vw;
+            background-color:#AF8F6F;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap:1rem;
+            justify-content:center;
+            align-items: center;
+        }
+        .container{
+            height: 70px;
+            width:70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: bolder;
+        }
+       
+        .services{
+            color: #F8F4E1;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+        .services li{
+            font-size: 0.8rem;
+            list-style-type: none;
+        }
+        .links{
+            color:#F8F4E1;
+            font-size:1.5rem;
+            font-weight: bolder;
+        }
+        .innerlink{
+            display: flex;
+            flex-direction: row;
+            gap:4rem;
+        }
+        .button{
+            height: 35px;
+            width:35px;
+            background-color: #F8F4E1;
+            box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+            border-radius: 50%;
+            display: flex;
+            font-weight: bolder;
+            flex-wrap: wrap;
+            border: none;
+        }
+        .innerlink p{
+            font-size: 0.3rem;
+        }
+        a .fa-github{
+            position: absolute;
+            bottom:15px;
+            left:0px;
+        }
+        a .fa-linkedin-in{
+            position: absolute;
+            bottom:15px;
+            left:6px;
+        }
+        a .fa-envelope{
+            position: absolute;
+            bottom:6px;
+            left:6px;
+        }
+        .page3{
+            background-color: #F8F4E1;
+            display: flex;
+            flex-direction: row;
+            gap:1rem;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        
+        .pro{
+            height: 400px;
+            width:150px;
+            background-color: #AF8F6F;
+            border-radius: 10px;
+            box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+        
+        }
+}
+@media((width:768px) and (height:1024px)){
+    .s2Heading{
+        font-size:1.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 6rem;
+    }
+    .l2{
+        height:500px;
+        width:400px;
+        background-image: url('img/img2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;    
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        right:-1.3rem;
+        top:10rem;
+            
+    }
+    .aboutText{
+        height:100px;
+        width:300px;
+        position: absolute;
+        right:5.8rem;
+        top:7.5rem;
+        font-size:1.15rem;
+    }
+        /*----------------------section4(Part-2)Adjustments---------------*/
+        .secPart1{
+            height:60%;
+            width: 100vw;
+            background-color:#AF8F6F;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap:2rem;
+            justify-content:center;
+            align-items: center;
+        }
+        .container{
+            height: 70px;
+            width:70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: bolder;
+        }
+       
+        .services{
+            color: #F8F4E1;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+        .services li{
+            font-size: 0.8rem;
+            list-style-type: none;
+        }
+        .links{
+            color:#F8F4E1;
+            font-size:1.5rem;
+            font-weight: bolder;
+        }
+        .innerlink{
+            display: flex;
+            flex-direction: row;
+            gap:4rem;
+        }
+        .button{
+            height: 35px;
+            width:35px;
+            background-color: #F8F4E1;
+            box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+            border-radius: 50%;
+            display: flex;
+            font-weight: bolder;
+            flex-wrap: wrap;
+            border: none;
+        }
+        .innerlink p{
+            font-size: 0.3rem;
+        }
+        a .fa-github{
+            position: absolute;
+            bottom:15px;
+            left:0px;
+        }
+        a .fa-linkedin-in{
+            position: absolute;
+            bottom:15px;
+            left:6px;
+        }
+        a .fa-envelope{
+            position: absolute;
+            bottom:6px;
+            left:6px;
+        }
+        .page3{
+            background-color: #F8F4E1;
+            display: flex;
+            flex-direction: row;
+            gap:4rem;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        
+        .pro{
+            height: 500px;
+            width:250px;
+            background-color: #AF8F6F;
+            border-radius: 10px;
+            box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+        
+        }
+}
+@media((width:820px) and (height:1180px)){
+    .s2Heading{
+        font-size:1.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 6rem;
+    }
+    .l2{
+        height:500px;
+        width:400px;
+        background-image: url('img/img2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;    
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        right:-1.3rem;
+        top:9rem;
+            
+    }
+    .aboutText{
+        height:100px;
+        width:300px;
+        position: absolute;
+        right:5.8rem;
+        top:7.5rem;
+        font-size:1.15rem;
+    }
+    /*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:2rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .container{
+        height: 70px;
+        width:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .services li{
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 35px;
+        width:35px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:6px;
+        left:6px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 500px;
+        width:250px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }
+}
+@media((width:1024px) and (height:1366px)){
+    .s2Heading{
+        font-size:2.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 7rem;
+        padding-top: 5rem;
+        font-weight: bolder;
+        padding-bottom: 10rem;
+    }
+    .l2{
+        height:500px;
+        width:400px;
+        background-image: url('img/img2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;   
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        right:5rem;
+        top:5rem;
+            
+    }
+    .aboutText{
+        height:100px;
+        width:350px;
+        position: absolute;
+        right:10rem;
+        top:10rem;
+        font-size:1.15rem;
+    }
+    /*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:2rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .container{
+        height: 70px;
+        width:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .services li{
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 35px;
+        width:35px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:6px;
+        left:6px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 500px;
+        width:250px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }
+}
+@media((width:912px) and (height:1368px)){
+    #section2{
+        height: 70vh;
+        width:100vw
+    }
+    .s2Heading{
+        font-size:2.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 7rem;
+        padding-top: 5rem;
+        font-weight: bolder;
+        padding-bottom: 10rem;
+    }
+    .l2{
+        height:500px;
+        width:400px;
+        background-image: url('img/img2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;    
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        right:3.5rem;
+        top:6.5rem;
+            
+    }
+    .aboutText{
+        height:100px;
+        width:350px;
+        position: absolute;
+        right:8rem;
+        top:10rem;
+        font-size:1.15rem;
+    }
+    /*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:2rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .container{
+        height: 70px;
+        width:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+    .services li{
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 50px;
+        width:50px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:25px;
+        left:7px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:25px;
+        left:9px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:12px;
+        left:12px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 500px;
+        width:250px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }
+} 
+@media((width:540px) and (height:720px)){
+    .s2Heading{
+        font-size:1.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+    }
+    .l2{
+        height:90vh;
+        min-width: 35%;
+        background-image: url('img/img2\(2\).png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;    
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3\(5\).png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        right:3rem;
+        top:5rem;
+            
+    }
+    .aboutText{
+        height:100px;
+        width:100px;
+        position: absolute;
+        right:10rem;
+        top:1.8rem;
+        font-size:0.9rem;
+    }
+    /*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:2rem;
+        justify-content:space-around;
+    }
+    .container{
+        height: 70px;
+        width:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .services li{
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 35px;
+        width:35px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:5px;
+        left:5px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 500px;
+        width:250px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }
+} 
+@media((width:280px) and (height:653px)){
+    
+    .s2Heading{
+        font-size:1.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+    }
+    .page2{
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+    .l2{
+        height:450px;
+        width:250px;
+        background-image: url('img/img2\(2\).png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    
+    
+        
+    }
+    .r2{
+        height:200px;
+        width:50px;
+        background-image: url('img/img3\(5\).png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        position: absolute;
+        right:-3.5rem;
+        top:5.5rem;
+    
+    }
+    .aboutText{
+        height:100px;
+        width:65px;
+        position: absolute;
+        right:5.3rem;
+        top:1.5rem;
+        font-size:0.55rem;
+    }
+}
+@media((width:1024px) and (height:600px)){
+    .s2Heading{
+        font-size:2.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 2rem;
+    }
+    
+    .l2{
+        height:80vh;
+        min-width: 40%;
+        background-image: url('img/img2.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+    
+    
+        
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 10rem;
+        position: absolute;
+        right:8rem;
+        top:46.5rem;
+    
+    }
+    .aboutText{
+        height:100px;
+        width:400px;
+        position: absolute;
+        right:9rem;
+        top:10rem;
+        font-size:1.5rem;
+    }
+    .secPart2{
+        height:40%;
+        width: 100vw;
+        background-color: #543310;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 2rem;
+        
+    }
+    .services li{
+        font-size: 1rem;
+        list-style-type: none;
+        
+    }
+    .links{
+        
+        color:#F8F4E1;
+        font-size:2rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    
+    }
+    .button{
+        height: 50px;
+        width:50px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    
+    }
+    .innerlink p{
+        font-size: 0.8rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:15px;
+        left:9px;
+    
+    }
+    
+}
+@media((width:1280px) and (height:800px)){
+    .s2Heading{
+        font-size:2.5rem;
+        color: black;
+        height:20px;
+        width: 100vw;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bolder;
+        padding-bottom: 2rem;
+    }
+    
+    .l2{
+        height:80vh;
+        min-width: 40%;
+        background-image: url('img/img2.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+    
+    
+        
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 10rem;
+        position: absolute;
+        right:8rem;
+        top:5.5rem;
+    
+    }
+    .aboutText{
+        height:100px;
+        width:400px;
+        position: absolute;
+        right:14rem;
+        top:11rem;
+        font-size:1.8rem;
+    }
+    .secPart2{
+        height:40%;
+        width: 100vw;
+        background-color: #543310;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 2rem;
+        
+    }
+    .services li{
+        font-size: 1rem;
+        list-style-type: none;
+        
+    }
+    .links{
+        
+        color:#F8F4E1;
+        font-size:2rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    
+    }
+    .button{
+        height: 50px;
+        width:50px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    
+    }
+    .innerlink p{
+        font-size: 0.8rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:25px;
+        left:2px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:25px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:8px;
+        left:10px;
+    
+    }
+    
+}
+@media((width:412px) and (height:914px)){
+    .r2{
+        top:6rem;
+    }
+    /*----------------------section4(Part-2)Adjustments---------------*/
+    .secPart1{
+        height:60%;
+        width: 100vw;
+        background-color:#AF8F6F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:2.5rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .container{
+        height: 70px;
+        width:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+   
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .services li{
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+    .links{
+        color:#F8F4E1;
+        font-size:1.5rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    }
+    .button{
+        height: 35px;
+        width:35px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .innerlink p{
+        font-size: 0.3rem;
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:15px;
+        left:0px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:15px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:5px;
+        left:5px;
+    }
+    .page3{
+        background-color: #F8F4E1;
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .pro{
+        height: 400px;
+        width:150px;
+        background-color: #AF8F6F;
+        border-radius: 10px;
+        box-shadow: 15px 15px 7px 2px rgba(0,0,0,0.12);
+    
+    }   
+}
+@media((width:1024px) and (height:600px)){
+    .r1{
+        height: 400px;
+        width:100px;
+        background-image: url('img/hero.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .l1{
+        font-size:3.5rem;
+        color: black;
+        min-height: 10vh;
+        padding-top: 9rem;
+        font-weight: bolder;
+        
+    }
+    #homeText{
+        font-size: 2.1rem;
+    }
+    .r2{
+        height:50vh;
+        min-width: 60%;
+        background-image: url('img/img3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 10rem;
+        position: absolute;
+        right:8rem;
+        top:3rem;
+    
+    }
+    .aboutText{
+        height:100px;
+        width:400px;
+        position: absolute;
+        right:8rem;
+        top:10rem;
+        font-size:1.3rem;
+    }
+    .services{
+        color: #F8F4E1;
+        font-weight: bolder;
+        font-size: 2rem;
+        
+    }
+    .services li{
+        font-size: 1rem;
+        list-style-type: none;
+        
+    }
+    .links{
+        
+        color:#F8F4E1;
+        font-size:2rem;
+        font-weight: bolder;
+    }
+    .innerlink{
+        display: flex;
+        flex-direction: row;
+        gap:4rem;
+    
+    }
+    .button{
+        height: 50px;
+        width:50px;
+        background-color: #F8F4E1;
+        box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.7);
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: none;
+    
+    }
+    a .fa-github{
+        position: absolute;
+        bottom:25px;
+        left:2px;
+    }
+    a .fa-linkedin-in{
+        position: absolute;
+        bottom:25px;
+        left:6px;
+    }
+    a .fa-envelope{
+        position: absolute;
+        bottom:8px;
+        left:10px;
+    
+    }
+    
+}
+/*----------------------------------------X-X------------------------------------------*/      
+/*----------------------------------------ANIMATONS------------------------------------------*/      
+        
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
